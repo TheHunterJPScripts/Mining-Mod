@@ -3,3 +3,5 @@ poster=poster.png
 id=miningRumming
 description=Project Zomboid Mod that add new tables to use for crafting. <BR> author: TheHunterJP
 
+pack=mines
+tiledef=mines 3583

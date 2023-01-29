@@ -9,9 +9,8 @@ end
 
 function ISSearch:start()
     self:setActionAnim("Searching")
-    self.sound = self.character:playSound("Mining_Pickaxe");
-    local radius = 20
-    addSound(self.character, self.character:getX(), self.character:getY(), self.character:getZ(), radius, radius)
+    self.character:faceThisObject(self.thumpable)
+    self.sound = self.character:playSound("Search_Garbage");
 end
 
 function ISSearch:stop()
