@@ -9,14 +9,4 @@ module Base
             distanceMax = 20,
         }
 	}
-
-    sound Search_Garbage
-	{
-		category = Player,
-        clip
-        {
-            file = media/sound/Search_Garbage.wav,
-            distanceMax = 20,
-        }
-	}
 }
