@@ -1,0 +1,7 @@
+UI_ES = {
+    UI_trait_badminer       = "Minero manco",
+    UI_trait_badminerdesc   = "Aplica una disminución de -1 en las materias primas extraídas",
+ 
+    UI_trait_goodminer      = "Alma enana",
+    UI_trait_goodminerdesc  = "Aplica un aumento de +1 en las materias primas extraídas",
+}

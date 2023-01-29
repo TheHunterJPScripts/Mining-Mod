@@ -6,7 +6,7 @@ MiningRummaging = getModInstance()
 
 MiningRummaging.resources["Coal Mine"] = {
     mineType = "Coal Mine",
-    menuName = getText("ContextMenu_Coal_Ore"),
+    menuName = getText("ContextMenu_Coal_Mine"),
     menuAction = getText("ContextMenu_Mine_Coal"),
     textures = { "mines_19", "mines_18" },
     lootTables = {

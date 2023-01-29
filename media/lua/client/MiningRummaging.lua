@@ -14,7 +14,6 @@ MiningRummaging.init = function()
     print('Mod Loaded: ' ..
         MiningRummaging.NAME ..
         ' by ' .. MiningRummaging.AUTHOR .. ' (v' .. MiningRummaging.VERSION .. ')')
-
 end
 
 MiningRummaging.AddLevel = function()

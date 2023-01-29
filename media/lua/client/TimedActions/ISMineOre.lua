@@ -73,7 +73,6 @@ function ISMineOre:processLoot(loot)
     end
 
     local metalistLevel = self.character:getPerkLevel(Perks.MetalWelding)
-    print("Level: " .. metalistLevel)
 
     if loot.requireLevel then
         for _, v in pairs(loot.amountPerLevel) do
@@ -81,10 +80,7 @@ function ISMineOre:processLoot(loot)
                 if metalistLevel == level then
                     local extra = ZombRand(v.amounts.max - v.amounts.min + 1)
                     local finalAmount = v.amounts.min + extra
-
-                    if finalAmount > 0 then
-                        self:addItems(loot.item, finalAmount)
-                    end
+                    self:addItems(loot.item, finalAmount)
                     return
                 end
             end
@@ -94,10 +90,11 @@ end
 
 function ISMineOre:addItems(item, amount)
     local additional = 0;
-    local isMiner = false; --self.character:HasTrait('miner');
-    local isntMiner = false; --self.character:HasTrait('notminer');
-    if isMiner then additional = 1 end
-    if isntMiner then additional = -1 end
+    if self.character:HasTrait('GoodMiner') then additional = 1 end
+    if self.character:HasTrait('BadMiner') then additional = -1 end
 
-    self.character:getInventory():AddItems(item, amount + additional);
+    local finalAmount = amount + additional
+    if finalAmount <= 0 then return end
+
+    self.character:getInventory():AddItems(item, finalAmount);
 end

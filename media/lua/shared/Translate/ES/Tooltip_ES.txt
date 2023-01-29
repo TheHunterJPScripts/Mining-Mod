@@ -1,0 +1,4 @@
+Tooltip_ES = {
+    Tooltip_Require_Pickaxe = "Necesito un pico",
+    Tooltip_Require_Endurance = "No tengo resistencia",
+}

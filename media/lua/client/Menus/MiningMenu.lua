@@ -14,12 +14,6 @@ local function predicateNotBroken(item)
   return not item:isBroken()
 end
 
-local function isIsoOre(isoObject)
-  if not instanceof(isoObject, "IsoObject") then return false end
-
-  return true
-end
-
 MiningMenu.OnFillWorldObjectContextMenu = function(player, context, worldobjects, test)
   if getCore():getGameMode() == 'LastStand' then
     return
