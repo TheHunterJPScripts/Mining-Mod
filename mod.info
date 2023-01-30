@@ -1,7 +1,10 @@
-name=Mining And Rummaging
+name=Mining Mod
 poster=poster.png
-id=miningRumming
-description=Project Zomboid Mod that add new tables to use for crafting. <BR> author: TheHunterJP
+id=miningMod
+description=Project Zomboid Mod that add mining nodes and the ability to mine them. <BR> author: TheHunterJP
 
 pack=mines
 tiledef=mines 3583
+
+// TODO: Edit mod.info
+// TODO: Workshop stuff related

@@ -19,7 +19,7 @@ perk Endurance
 
 perk MineEndurance
 {
-	parent = Passive,
+	parent = Endurance,
 	translation = MineEndurance,
 	passive = true,
 	xp1= 10,
