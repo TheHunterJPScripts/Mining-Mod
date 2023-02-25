@@ -1,8 +1,8 @@
-if not getModInstance then
-  require('MiningRummaging')
+if not getMinningModInstance then
+  require('MiningMod')
 end
 
-MiningRummaging = getModInstance()
+MiningMod = getMinningModInstance()
 
 MiningMenu = {}
 
@@ -33,7 +33,7 @@ MiningMenu.OnFillWorldObjectContextMenu = function(player, context, worldobjects
   for i, v in pairs(worldobjects) do
     local name = v:getName()
     if name then
-      for index, currentOreData in pairs(MiningRummaging.resources) do
+      for index, currentOreData in pairs(MiningMod.resources) do
         if name == index then
           ore = v
           oreData = currentOreData
@@ -56,7 +56,6 @@ MiningMenu.getPickaxe = function(playerInv)
 end
 
 MiningMenu.TableMenuBuilder = function(context, worldobjects, player, ore, oreData)
-
   local playerObj = getPlayer(player)
   local playerInv = playerObj:getInventory()
   local showTooltop = false
@@ -95,7 +94,6 @@ end
 
 
 MiningMenu.Mine = function(this, player, ore, oreData)
-
   local playerObj = getPlayer(player)
   local playerInv = playerObj:getInventory()
   local pickaxe = MiningMenu.getPickaxe(playerInv)
@@ -115,7 +113,6 @@ MiningMenu.Mine = function(this, player, ore, oreData)
   local pickaxe = playerObj:getInventory():getFirstTagEvalRecurse("Pickaxe", predicateNotBroken)
   if not pickaxe then return end
   ISWorldObjectContextMenu.equip(playerObj, playerObj:getPrimaryHandItem(), pickaxe, true, true)
-
 end
 
 Events.OnFillWorldObjectContextMenu.Add(MiningMenu.OnFillWorldObjectContextMenu)

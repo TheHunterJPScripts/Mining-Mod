@@ -1,5 +1,5 @@
 -- require('NPCs/MainCreationMethods');
-require('MiningRummaging')
+require('MiningMod')
 
 MiningTraits = {}
 

@@ -1,10 +1,10 @@
-if not getModInstance then
-    require('MiningRummaging')
+if not getMinningModInstance then
+    require('MiningMod')
 end
 
-MiningRummaging = getModInstance()
+MiningMod = getMinningModInstance()
 
-MiningRummaging.resources["Chromium Mine"] = {
+MiningMod.resources["Chromium Mine"] = {
     mineType = "Chromium Mine",
     menuName = getText("ContextMenu_Chromium_Mine"),
     menuAction = getText("ContextMenu_Mine_Chromium"),

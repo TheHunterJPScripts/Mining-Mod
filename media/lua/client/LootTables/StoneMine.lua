@@ -1,10 +1,10 @@
-if not getModInstance then
-    require('MiningRummaging')
+if not getMinningModInstance then
+    require('MiningMod')
 end
 
-MiningRummaging = getModInstance()
+MiningMod = getMinningModInstance()
 
-MiningRummaging.resources["Stone Mine"] = {
+MiningMod.resources["Stone Mine"] = {
     mineType = "Stone Mine",
     menuName = getText("ContextMenu_Stone_Mine"),
     menuAction = getText("ContextMenu_Mine_Stone"),

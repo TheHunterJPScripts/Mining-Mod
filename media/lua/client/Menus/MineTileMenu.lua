@@ -1,5 +1,5 @@
-if not getModInstance then
-    require('MiningRummaging')
+if not getMinningModInstance then
+    require('MiningMod')
 end
 
 TestMenu = {}
@@ -25,18 +25,16 @@ TestMenu.OnFillWorldObjectContextMenu = function(player, context, worldobjects, 
     local subMenu = ISContextMenu:getNew(context)
     context:addSubMenu(newOptionMenu, subMenu)
 
-    local mines = getModInstance().resources
+    local mines = getMinningModInstance().resources
     for i, mine in pairs(mines) do
         local menuOption = subMenu:addOption(mine.menuName, worldobjects, TestMenu.onBuildIndesctructibleBuild, player,
             mine.mineType, mine.textures[1], mine.textures[2])
         TestMenu.AddTooltip(menuOption, player, mine.menuName, mine.textures[2])
     end
-
 end
 
 
 TestMenu.onBuildIndesctructibleBuild = function(ignoreThisArgument, player, name, sprite, sprite2)
-
     local _table = ISIndesctructibleBuild:new(name,
         sprite,
         sprite2)
