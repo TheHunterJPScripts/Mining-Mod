@@ -1,4 +1,4 @@
-if not getMinningModInstance then
+if not getMiningModInstance then
     require('MiningMod')
 end
 
@@ -25,7 +25,7 @@ TestMenu.OnFillWorldObjectContextMenu = function(player, context, worldobjects, 
     local subMenu = ISContextMenu:getNew(context)
     context:addSubMenu(newOptionMenu, subMenu)
 
-    local mines = getMinningModInstance().resources
+    local mines = getMiningModInstance().resources
     for i, mine in pairs(mines) do
         local menuOption = subMenu:addOption(mine.menuName, worldobjects, TestMenu.onBuildIndesctructibleBuild, player,
             mine.mineType, mine.textures[1], mine.textures[2])

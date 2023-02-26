@@ -47,7 +47,7 @@ function ISMineOre:perform()
 
     local oreType = self.oreData.mineType;
 
-    for _, v in pairs(getMinningModInstance().resources[oreType].lootTables) do
+    for _, v in pairs(getMiningModInstance().resources[oreType].lootTables) do
         self:processLoot(v)
     end
 end

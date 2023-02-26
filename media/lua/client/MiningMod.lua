@@ -6,7 +6,7 @@ MiningMod.VERSION = '1.0.0'
 
 MiningMod.resources = {}
 
-function getMinningModInstance()
+function getMiningModInstance()
     return MiningMod
 end
 

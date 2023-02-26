@@ -1,8 +1,8 @@
-if not getMinningModInstance then
+if not getMiningModInstance then
     require('MiningMod')
 end
 
-MiningMod = getMinningModInstance()
+MiningMod = getMiningModInstance()
 
 MiningMod.resources["Nickel Mine"] = {
     mineType = "Nickel Mine",
