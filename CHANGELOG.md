@@ -5,7 +5,7 @@
 ### Changed
 ### Removed
 
-## [1.0.3] - 2023-26-02
+## [1.0.3] - 2023-06-03
 ### Added
 ### Changed
 - Fixed spanish translation encoding
