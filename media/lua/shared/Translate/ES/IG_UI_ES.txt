@@ -1,4 +1,4 @@
 IGUI_ES = {
-	IGUI_perks_Endurance = "Relacionado con Acci√≥nes",
-	IGUI_perks_MineEndurance = "Energ√≠a",
+	IGUI_perks_Endurance = "Relacionado con Acciones",
+	IGUI_perks_MineEndurance = "EnergÌ≠a",
 }
