@@ -17,7 +17,7 @@ MiningMod.resources["Lead Mine"] = {
             fixedAmount = 1,
         },
         {
-            item = "Mining.RawLead",
+            item = "Mining.MM_RawLead",
             requireLevel = true,
             fixed = false,
             amountPerLevel = {

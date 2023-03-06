@@ -1,4 +1,5 @@
 IGUI_ES = {
-	IGUI_perks_Endurance = "Relacionado con AcciÃ³nes",
-	IGUI_perks_MineEndurance = "EnergÃ­a",
+	IGUI_perks_Endurance = "Relacionado con Acciones",
+	IGUI_perks_MineEndurance = "Energí­a",
+	IGUI_ItemCat_Ingots = "Minería",
 }

@@ -17,7 +17,7 @@ MiningMod.resources["Salt Mine"] = {
             fixedAmount = 1,
         },
         {
-            item = "Mining.RawSalt",
+            item = "Mining.MM_RawSalt",
             requireLevel = true,
             fixed = false,
             amountPerLevel = {
