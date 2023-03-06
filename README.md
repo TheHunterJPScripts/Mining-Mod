@@ -1,7 +1,7 @@
 ## Mining-Rummaging
 ![](https://img.shields.io/badge/ProjectZomboid-41.78-orange)
 ![](https://img.shields.io/badge/language-lua-blue)
-![](https://img.shields.io/badge/version-1.0.1-green)
+![](https://img.shields.io/badge/version-1.0.3-green)
 * Project: Mining Mod
 * Author: TheHunterJP
 * Date: January 30, 2023
