@@ -1,4 +1,5 @@
 IGUI_EN = {
 	IGUI_perks_Endurance = "Action Related",
 	IGUI_perks_MineEndurance = "Energy",
+	IGUI_ItemCat_Ingots = "Mining",
 }

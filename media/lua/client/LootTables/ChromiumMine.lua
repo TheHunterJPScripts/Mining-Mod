@@ -17,7 +17,7 @@ MiningMod.resources["Chromium Mine"] = {
             fixedAmount = 1,
         },
         {
-            item = "Mining.RawChromium",
+            item = "Mining.MM_RawChromium",
             requireLevel = true,
             fixed = false,
             amountPerLevel = {
