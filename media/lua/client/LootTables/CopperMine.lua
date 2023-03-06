@@ -17,7 +17,7 @@ MiningMod.resources["Copper Mine"] = {
             fixedAmount = 1,
         },
         {
-            item = "Mining.RawCopper",
+            item = "Mining.MM_RawCopper",
             requireLevel = true,
             fixed = false,
             amountPerLevel = {

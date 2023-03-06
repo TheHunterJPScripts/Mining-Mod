@@ -17,7 +17,7 @@ MiningMod.resources["Sulfure Mine"] = {
             fixedAmount = 1,
         },
         {
-            item = "Mining.RawSulfure",
+            item = "Mining.MM_RawSulfure",
             requireLevel = true,
             fixed = false,
             amountPerLevel = {

@@ -6,7 +6,7 @@ module Mining
 	}
 
 
-    item Coal
+    item MM_Coal
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
@@ -16,7 +16,7 @@ module Mining
 		WorldStaticModel = Stone,
 	}
 
-	item RawIron
+	item MM_RawIron
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	0.5,
@@ -26,7 +26,7 @@ module Mining
 		WorldStaticModel = Stone,
 	}
 
-	item RawCopper
+	item MM_RawCopper
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	0.5,
@@ -36,7 +36,7 @@ module Mining
 		WorldStaticModel = Stone,
 	}
 
-	item RawNickel
+	item MM_RawNickel
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
@@ -46,7 +46,7 @@ module Mining
 		WorldStaticModel = Stone,
 	}
 
-	item RawLead
+	item MM_RawLead
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
@@ -57,7 +57,7 @@ module Mining
 	}
 
 	
-	item RawChromium
+	item MM_RawChromium
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
@@ -68,7 +68,7 @@ module Mining
 	}
 
 	
-	item RawTin
+	item MM_RawTin
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
@@ -79,7 +79,7 @@ module Mining
 	}
 
 	
-	item RawSalt
+	item MM_RawSalt
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
@@ -89,7 +89,7 @@ module Mining
 		WorldStaticModel = Stone,
 	}
 
-	item RawSulfure
+	item MM_RawSulfure
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
@@ -99,7 +99,7 @@ module Mining
 		WorldStaticModel = Stone,
 	}
 
-	item Limestone
+	item MM_Limestone
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
@@ -109,7 +109,7 @@ module Mining
 		WorldStaticModel = Stone,
 	}
 
-		item IronIngot
+    item MM_IronIngot
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	0.5,
@@ -118,7 +118,7 @@ module Mining
 		Icon	=	Iron_Ingot,
 	}
 
-	item CopperIngot
+	item MM_CopperIngot
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	0.5,
@@ -127,7 +127,7 @@ module Mining
 		Icon	=	Copper_Ingot,
 	}
 
-	item NickelIngot
+	item MM_NickelIngot
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
@@ -136,7 +136,7 @@ module Mining
 		Icon	=	Nickel_Ingot,
 	}
 
-	item LeadIngot
+	item MM_LeadIngot
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
@@ -146,7 +146,7 @@ module Mining
 	}
 
 	
-	item ChromiumIngot
+	item MM_ChromiumIngot
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
@@ -156,7 +156,7 @@ module Mining
 	}
 
 	
-	item TinIngot
+	item MM_TinIngot
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
@@ -165,7 +165,7 @@ module Mining
 		Icon	=	Tin_Ingot,
 	}
 	
-	item Salt
+	item MM_Salt
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
@@ -174,7 +174,7 @@ module Mining
 		Icon	=	Salt,
 	}
 
-	item Sulfure
+	item MM_Sulfure
 	{
 	    DisplayCategory = Ingots,
 		Weight	=	1,
