@@ -17,7 +17,7 @@ MiningMod.resources["Stone Mine"] = {
             fixedAmount = 1,
         },
         {
-            item = "Mining.Limestone",
+            item = "Mining.MM_Limestone",
             requireLevel = true,
             fixed = false,
             amountPerLevel = {

@@ -17,7 +17,7 @@ MiningMod.resources["Nickel Mine"] = {
             fixedAmount = 1,
         },
         {
-            item = "Mining.RawNickel",
+            item = "Mining.MM_RawNickel",
             requireLevel = true,
             fixed = false,
             amountPerLevel = {

@@ -17,7 +17,7 @@ MiningMod.resources["Coal Mine"] = {
             fixedAmount = 1,
         },
         {
-            item = "Mining.Coal",
+            item = "Mining.MM_Coal",
             requireLevel = true,
             fixed = false,
             amountPerLevel = {

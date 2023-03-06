@@ -17,7 +17,7 @@ MiningMod.resources["Tin Mine"] = {
             fixedAmount = 1,
         },
         {
-            item = "Mining.RawTin",
+            item = "MM_MM_RawTin",
             requireLevel = true,
             fixed = false,
             amountPerLevel = {
