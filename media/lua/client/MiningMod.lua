@@ -25,15 +25,3 @@ end
 
 Events.EveryTenMinutes.Add(MiningMod.AddLevel);
 Events.OnGameStart.Add(MiningMod.init)
-
-local function addLevel(keypressed)
-    local key = keypressed
-    local playerObj = getPlayer()
-
-    if key == Keyboard.KEY_K then
-        print("Add Level")
-        playerObj:getXp():AddXP(Perks.MineEndurance, 60);
-    end
-end
-
-Events.OnKeyPressed.Add(addLevel)
