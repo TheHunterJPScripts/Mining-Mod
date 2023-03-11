@@ -5,6 +5,12 @@
 ### Changed
 ### Removed
 
+## [1.0.4] - 2023-11-03
+### Added
+### Changed
+- Removed a piece of code that allowwed you to recharge the energy bar
+### Removed
+
 ## [1.0.3] - 2023-06-03
 ### Added
 ### Changed
